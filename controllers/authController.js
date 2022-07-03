@@ -45,7 +45,7 @@ const login = async(req, res = response) => {
     } catch (error) {
         console.log(error)
         res.status(500).json({
-            msg: 'Error'
+            msg: 'Error al autenticar el usuario'
         });
     }   
 

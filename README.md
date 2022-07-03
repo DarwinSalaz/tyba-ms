@@ -41,7 +41,6 @@ POST - localhost:8080/api/users/
         "email": "darwinsalaz@gmail.com",
         "role": "ADMIN",
         "active": true,
-        "google": false,
         "_id": "62c1cb324502fa1e36888938"
     }
 }
@@ -85,8 +84,7 @@ POST - localhost:8080/api/auth/login
         "lastname": "Salazar",
         "email": "darwinsalaz@gmail.com",
         "role": "ADMIN",
-        "active": true,
-        "google": false
+        "active": true
     },
     "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmMxY2IzMjQ1MDJmYTFlMzY4ODg5MzgiLCJpYXQiOjE2NTY4NjkxMzIsImV4cCI6MTY1Njg4MzUzMn0.7UcZGj6e8vRdcVlKHPXN992b__r5IC8bAR4UolCG5js"
 }
