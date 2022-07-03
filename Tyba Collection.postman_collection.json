@@ -1,0 +1,457 @@
+{
+	"info": {
+		"_postman_id": "f6c58b71-d1f7-44d8-bd5a-3aeac7aa4af6",
+		"name": "Tyba Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Consultar Transacciones",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmMxY2IzMjQ1MDJmYTFlMzY4ODg5MzgiLCJpYXQiOjE2NTY4NjkxMzIsImV4cCI6MTY1Njg4MzUzMn0.7UcZGj6e8vRdcVlKHPXN992b__r5IC8bAR4UolCG5js",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8080/api/transactions",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"transactions"
+					],
+					"query": [
+						{
+							"key": "x-token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmMxY2IzMjQ1MDJmYTFlMzY4ODg5MzgiLCJpYXQiOjE2NTY4NjkxMzIsImV4cCI6MTY1Njg4MzUzMn0.7UcZGj6e8vRdcVlKHPXN992b__r5IC8bAR4UolCG5js",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Ejemplo Consultar Transacciones",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmMxY2IzMjQ1MDJmYTFlMzY4ODg5MzgiLCJpYXQiOjE2NTY4NjkxMzIsImV4cCI6MTY1Njg4MzUzMn0.7UcZGj6e8vRdcVlKHPXN992b__r5IC8bAR4UolCG5js",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "localhost:8080/api/transactions",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"transactions"
+							],
+							"query": [
+								{
+									"key": "x-token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmMxY2IzMjQ1MDJmYTFlMzY4ODg5MzgiLCJpYXQiOjE2NTY4NjkxMzIsImV4cCI6MTY1Njg4MzUzMn0.7UcZGj6e8vRdcVlKHPXN992b__r5IC8bAR4UolCG5js",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "954"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"3ba-bXCKWoR7zY8N6kASN1Xxp6Y18iY\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 03 Jul 2022 19:07:12 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"count\": 2,\n    \"transactions\": [\n        {\n            \"_id\": \"62c1e5fed511b23f55d732f0\",\n            \"userId\": \"62c1cb324502fa1e36888938\",\n            \"lat\": 6.2359,\n            \"lng\": -75.5751,\n            \"restaurants\": [\n                \"Hooters\",\n                \"paladar y corazon\",\n                \"Federal Ribs\",\n                \"Federal Ribs\",\n                \"Federal Ribs\",\n                \"Rico Ajiaco y Algo más\",\n                \"Betty's Bowls\",\n                \"Sushi Gama\",\n                \"Bianchas\",\n                \"Pane e Pomodoro\",\n                \"MessKla Taller Gastronómico\",\n                \"Sushi Light\",\n                \"Embajada China\",\n                \"Sabor Gourmet\",\n                \"EL sabor de resortes\",\n                \"Mercado del Río\",\n                \"Helados Violetta\",\n                \"La carbonera\",\n                \"Ozio Caffé\",\n                \"Compostela\"\n            ],\n            \"__v\": 0\n        },\n        {\n            \"_id\": \"62c1e6c5cf9e4c2c5a722f63\",\n            \"userId\": \"62c1cb324502fa1e36888938\",\n            \"lat\": 6.2359,\n            \"lng\": -75.5751,\n            \"restaurants\": [\n                \"Hooters\",\n                \"paladar y corazon\",\n                \"Federal Ribs\",\n                \"Federal Ribs\",\n                \"Federal Ribs\",\n                \"Rico Ajiaco y Algo más\",\n                \"Betty's Bowls\",\n                \"Sushi Gama\",\n                \"Bianchas\",\n                \"Pane e Pomodoro\",\n                \"MessKla Taller Gastronómico\",\n                \"Sushi Light\",\n                \"Embajada China\",\n                \"Sabor Gourmet\",\n                \"EL sabor de resortes\",\n                \"Mercado del Río\",\n                \"Helados Violetta\",\n                \"La carbonera\",\n                \"Ozio Caffé\",\n                \"Compostela\"\n            ],\n            \"__v\": 0\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Consultar restaurantes",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmMxY2IzMjQ1MDJmYTFlMzY4ODg5MzgiLCJpYXQiOjE2NTY4NjkxMzIsImV4cCI6MTY1Njg4MzUzMn0.7UcZGj6e8vRdcVlKHPXN992b__r5IC8bAR4UolCG5js",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"lat\": 6.2359,\r\n    \"lng\": -75.5751\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/restaurants",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"restaurants"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Ejemplo Consultar restaurantes",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "x-token",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmMxY2IzMjQ1MDJmYTFlMzY4ODg5MzgiLCJpYXQiOjE2NTY4NjkxMzIsImV4cCI6MTY1Njg4MzUzMn0.7UcZGj6e8vRdcVlKHPXN992b__r5IC8bAR4UolCG5js",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"lat\": 6.2359,\r\n    \"lng\": -75.5751\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/restaurants",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"restaurants"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "5000"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1388-ETdX1o+HnjjBncsd4rPfTtxUiNQ\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 03 Jul 2022 18:58:13 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"restaurants\": [\n        {\n            \"id\": \"514bd8237953e452c059246b30048ed41840f00103f901e015c6f800000000920307486f6f74657273\",\n            \"name\": \"Hooters\",\n            \"city\": \"Medellín\",\n            \"address\": \"Hooters, Carrera 37A 8-44, Comuna 14 - El Poblado, 0500 Medellín, ANT, Colombia\"\n        },\n        {\n            \"id\": \"51044070f060e652c059959ea29795ec1840f00103f901f27b52220100000092031170616c61646172207920636f72617a6f6e\",\n            \"name\": \"paladar y corazon\",\n            \"city\": \"Medellín\",\n            \"address\": \"paladar y corazon, Calle 30 75a - 05, Comuna 16 - Belén, 0500 Medellín, ANT, Colombia\"\n        },\n        {\n            \"id\": \"516283e04c27e652c059ef3ff2427efc1840f00103f90146038f410100000092030c4665646572616c2052696273\",\n            \"name\": \"Federal Ribs\",\n            \"city\": \"Medellín\",\n            \"address\": \"Federal Ribs, Circular 75 39 B -21, Comuna 11 - Laureles-Estadio, 0500 Medellín, ANT, Colombia\"\n        },\n        {\n            \"id\": \"5134c6980524e452c059c272816775d71840f00103f90147038f410100000092030c4665646572616c2052696273\",\n            \"name\": \"Federal Ribs\",\n            \"city\": \"Medellín\",\n            \"address\": \"Federal Ribs, Carrera 35 10B-17, Comuna 14 - El Poblado, 0500 Medellín, ANT, Colombia\"\n        },\n        {\n            \"id\": \"5145fc790984e552c059e29f501366b51840f00103f90148038f410100000092030c4665646572616c2052696273\",\n            \"name\": \"Federal Ribs\",\n            \"city\": \"Envigado\",\n            \"address\": \"Federal Ribs, Calle 30A Sur 44A - 07, La Magnolia, 055422 Envigado, ANT, Colombia\"\n        },\n        {\n            \"id\": \"5125b8ec6bb8e552c059e3e274bcfcfb1840f00103f9018336934a010000009203175269636f20416a6961636f207920416c676f206dc3a173\",\n            \"name\": \"Rico Ajiaco y Algo más\",\n            \"city\": \"Medellín\",\n            \"address\": \"Rico Ajiaco y Algo más, Carrera 70 Circular 3-15, Comuna 11 - Laureles-Estadio, 050010 Medellín, ANT, Colombia\"\n        },\n        {\n            \"id\": \"511eb237e716e452c05957fe50bb48d41840f00103f901c411b2560100000092030d4265747479277320426f776c73\",\n            \"name\": \"Betty's Bowls\",\n            \"city\": \"Medellín\",\n            \"address\": \"Betty's Bowls, Carrera 32D 7A-77 Local 01, Comuna 14 - El Poblado, 050021 Medellín, ANT, Colombia\"\n        },\n        {\n            \"id\": \"518aa0d6d9b5e452c05948580e35a9da1840f00103f901e189c0690100000092030a53757368692047616d61\",\n            \"name\": \"Sushi Gama\",\n            \"city\": \"Medellín\",\n            \"address\": \"Sushi Gama, Calle 11A 43F - 05, Comuna 14 - El Poblado, 0500 Medellín, ANT, Colombia\"\n        },\n        {\n            \"id\": \"516cf6f69d95e452c0593e87b665042a1940f00103f9014119e979010000009203084269616e63686173\",\n            \"name\": \"Bianchas\",\n            \"city\": \"Medellín\",\n            \"address\": \"Bianchas, Calle 96 68-28, Comuna 5 - Castilla, 0500 Medellín, ANT, Colombia\"\n        },\n        {\n            \"id\": \"51028e4ea786e452c0591a46d08f14d91840f00103f901a92b38830100000092030f50616e65206520506f6d6f646f726f\",\n            \"name\": \"Pane e Pomodoro\",\n            \"city\": \"Medellín\",\n            \"address\": \"Pane e Pomodoro, Carrera 43B 11-88, Comuna 14 - El Poblado, 0500 Medellín, ANT, Colombia\"\n        },\n        {\n            \"id\": \"519b86f24fbae552c0592e94581635ab1840f00103f9017d56fe100200000092031c4d6573734b6c612054616c6c65722047617374726f6ec3b36d69636f\",\n            \"name\": \"MessKla Taller Gastronómico\",\n            \"city\": \"Envigado\",\n            \"address\": \"MessKla Thai & Pizza, Calle 40C Sur #42-44, La Paz, 055421 Envigado, ANT, Colombia\"\n        },\n        {\n            \"id\": \"51e5643d1034e652c059878d843ba5fb1840f00103f901d1c0bc280200000092030b5375736869204c69676874\",\n            \"name\": \"Sushi Light\",\n            \"city\": \"Medellín\",\n            \"address\": \"Sushi Light, Circular 75, Comuna 11 - Laureles-Estadio, 0500 Medellín, ANT, Colombia\"\n        },\n        {\n            \"id\": \"51d590d18d4be752c05995b47e2015081940f00102f9015eb749070000000092030e456d62616a616461204368696e61\",\n            \"name\": \"Embajada China\",\n            \"city\": \"Medellín\",\n            \"address\": \"Embajada China, Carrera 99, Comuna 13 - San Javier, 0500 Medellín, ANT, Colombia\"\n        },\n        {\n            \"id\": \"51d18d2ccc9ee352c0595e8b84ccd2f81840f00102f901dcad490b0000000092030d5361626f7220476f75726d6574\",\n            \"name\": \"Sabor Gourmet\",\n            \"city\": \"Medellín\",\n            \"address\": \"Sabor Gourmet, Calle 49 35-14, Comuna 9 - Buenos Aires, 0500 Medellín, ANT, Colombia\"\n        },\n        {\n            \"id\": \"516f5809ccb9e452c0596e7f29164d331940f00102f901b9cdeb1800000000920314454c207361626f72206465207265736f72746573\",\n            \"name\": \"EL sabor de resortes\",\n            \"city\": \"Medellín\",\n            \"address\": \"EL sabor de resortes, Carrera 74, Comuna 6 - Doce de Octubre, 0500 Medellín, ANT, Colombia\"\n        },\n        {\n            \"id\": \"5184cb9ce8d3e452c059627a24d181e71840f00102f901bc9d301e000000009203104d65726361646f2064656c2052c3ad6f\",\n            \"name\": \"Mercado del Río\",\n            \"city\": \"Medellín\",\n            \"address\": \"Mercado del Río, Calle 24 # 48 - 28, Comuna 14 - El Poblado, 0500 Medellín, ANT, Colombia\"\n        },\n        {\n            \"id\": \"5180835747c1e352c059a876399cef2b1940f00102f9010556ee2e0000000092031048656c61646f732056696f6c65747461\",\n            \"name\": \"Helados Violetta\",\n            \"city\": \"Medellín\",\n            \"address\": \"Helados Violetta, Calle 100A, Comuna 2 - Santa Cruz, 0500 Medellín, ANT, Colombia\"\n        },\n        {\n            \"id\": \"51bfd03accc3e352c059c33ae73f2e2b1940f00102f90126b3262f0000000092030c4c6120636172626f6e657261\",\n            \"name\": \"La carbonera\",\n            \"city\": \"Medellín\",\n            \"address\": \"La carbonera, Calle 99 #50B-02, Comuna 2 - Santa Cruz, 0500 Medellín, ANT, Colombia\"\n        },\n        {\n            \"id\": \"518856e6ca15e552c059454f0efa74bd1840f00102f90112f612300000000092030b4f7a696f2043616666c3a9\",\n            \"name\": \"Ozio Caffé\",\n            \"city\": \"Medellín\",\n            \"address\": \"Ozio Caffé, Calle 18 Sur 135, Comuna 14 - El Poblado, 050022 Medellín, ANT, Colombia\"\n        },\n        {\n            \"id\": \"51f56740ab53e552c059f952cf2055f51840f00102f9018157193e0000000092030a436f6d706f7374656c61\",\n            \"name\": \"Compostela\",\n            \"city\": \"Medellín\",\n            \"address\": \"Compostela, Calle 34 65-04, Comuna 11 - Laureles-Estadio, 050030 Medellín, ANT, Colombia\"\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "API externa restaurantes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.geoapify.com/v2/places?categories=catering.restaurant&limit=20&apiKey=c84805d9567c4e80aaba8aa5440c7a38&filter=circle:-75.5751,6.2359,5000",
+					"protocol": "https",
+					"host": [
+						"api",
+						"geoapify",
+						"com"
+					],
+					"path": [
+						"v2",
+						"places"
+					],
+					"query": [
+						{
+							"key": "categories",
+							"value": "catering.restaurant"
+						},
+						{
+							"key": "limit",
+							"value": "20"
+						},
+						{
+							"key": "apiKey",
+							"value": "c84805d9567c4e80aaba8aa5440c7a38"
+						},
+						{
+							"key": "filter",
+							"value": "rect%3A10.716463143326969%2C48.755151258420966%2C10.835314015356737%2C48.680903341613316",
+							"disabled": true
+						},
+						{
+							"key": "filter",
+							"value": "circle:-75.5751,6.2359,5000"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Inicio de sesión",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"darwinsalaz@gmail.com\",\r\n    \"password\": \"123456\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/auth/login",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Ejemplo Inicio de sesión",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"darwinsalaz@gmail.com\",\r\n    \"password\": \"123456\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/auth/login",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"auth",
+								"login"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "339"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"153-zFT29eFx+WH10YPIRNQrl5s6MnY\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 03 Jul 2022 17:25:32 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"user\": {\n        \"_id\": \"62c1cb324502fa1e36888938\",\n        \"name\": \"Darwin\",\n        \"lastname\": \"Salazar\",\n        \"email\": \"darwinsalaz@gmail.com\",\n        \"role\": \"ADMIN\",\n        \"active\": true,\n        \"google\": false\n    },\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MmMxY2IzMjQ1MDJmYTFlMzY4ODg5MzgiLCJpYXQiOjE2NTY4NjkxMzIsImV4cCI6MTY1Njg4MzUzMn0.7UcZGj6e8vRdcVlKHPXN992b__r5IC8bAR4UolCG5js\"\n}"
+				}
+			]
+		},
+		{
+			"name": "POST - Crear usuario",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Darwin\",\r\n    \"lastname\": \"Salazar\",\r\n    \"email\": \"darwinsalaz@gmail.com\",\r\n    \"password\": \"123456\",\r\n    \"role\":\"ADMIN\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/users/",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"users",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Ejemplo POST - Crear usuario",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Darwin\",\r\n    \"lastname\": \"Salazar\",\r\n    \"email\": \"darwinsalaz@gmail.com\",\r\n    \"password\": \"123456\",\r\n    \"role\":\"ADMIN\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/users/",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"users",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "156"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"9c-K822FIno+8UorgLoSvkQn9Xi2Ak\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 03 Jul 2022 17:00:34 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"user\": {\n        \"name\": \"Darwin\",\n        \"lastname\": \"Salazar\",\n        \"email\": \"darwinsalaz@gmail.com\",\n        \"role\": \"ADMIN\",\n        \"active\": true,\n        \"google\": false,\n        \"_id\": \"62c1cb324502fa1e36888938\"\n    }\n}"
+				}
+			]
+		}
+	]
+}
